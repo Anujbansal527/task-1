@@ -1,0 +1,107 @@
+#root{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(38, 7, 66);
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    flex-wrap: wrap;
+    color: black;
+    background-image: url("https://ik.imagekit.io/dev24/The_Invisible_Inventor_s_Lab_Vrr5-zE2L.png");
+    background-color: rgb(35, 82, 122);
+    justify-content: center;
+    align-items: center;
+}  
+
+.nav-container{
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.head{
+    color: white;
+    text-decoration: none;
+    font-size: 70px;
+}
+
+.nav-btn{
+    font-size: large;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    color: white;
+    border-radius: 20%/40%;
+    border: none;
+    background: rgb(54,54,152);
+    background: linear-gradient(90deg, rgba(54,54,152,1) 16%, rgba(30,121,182,1) 53%, rgba(12,178,212,1) 81%);
+}
+
+#nav-ele{
+    font-size: large;
+    text-align: center;
+    margin: 10px;
+    color: white;
+    gap: 5px;
+    text-decoration: none;
+}
+
+/*Page 1*/
+   
+.Card-section{
+    margin: 15px;
+}
+
+.card-div{
+    display: flex;
+    flex: content;
+    margin: 5px;
+    padding: 15px;
+    width: 240px;
+    height: 270px;
+    border-radius: 5%;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(54,54,152);
+    background: linear-gradient(90deg, rgba(54,54,152,1) 16%, rgba(30,121,182,1) 53%, rgba(12,178,212,1) 81%);    
+}
+
+.card-title{
+    width: auto;
+    height: auto;
+    color: white;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-card {
+    width:100%;
+    height: 65%;
+    border-radius: 5%;
+    box-shadow: inset 10px solid black;
+    
+}
+
+.card-button{
+    width: 100%;
+    height: 34px;
+    border: none;
+    border-radius: 20%/50%;
+}

@@ -1,0 +1,66 @@
+
+.page2-section{
+    padding-top: 30px;
+    display: flex;
+    gap: 10px
+}
+
+
+.div-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border: 2px solid blue;
+    border-style: dashed;
+    background: rgb(47,47,62);
+    background: linear-gradient(90deg, rgb(39 32 62) 35%, rgb(32 23 47) 100%);
+    padding: 15px;
+    height: 400px;
+    width: 430px;
+    column-gap: 5px;
+    margin-top: 18px;
+}
+
+.page2-img-card{
+    width:100%;
+    height: 300px;
+    border-radius: 5%;
+    box-shadow: inset 10px solid black;
+    padding-bottom: 8px;
+}
+
+.page2-card-title{
+    width: auto;
+    height: auto;
+    color: white;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.page2-button{
+    margin: 5px;
+    width: 80%;
+    height: 50px;
+    border: none;
+    border-radius: 20%/50%;
+}
+
+.heading{
+    width: 100%;
+    height: 400%;
+    color: rgb(54,54,152);
+    color: linear-gradient(90deg, rgba(54,54,152,1) 16%, rgba(30,121,182,1) 53%, rgba(12,178,212,1) 81%);
+}
+
+.div-2{
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+
+    height: auto;
+    width: 70% ;
+}
+
